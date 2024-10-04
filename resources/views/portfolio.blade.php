@@ -39,7 +39,7 @@
         <div class="flex items-center justify-between">
             <div class="flex items-center space-x-4">
                 <div class="w-12 h-12 rounded-full overflow-hidden">
-                    <img src="{{ asset('images/profile-small.jpg') }}" alt="Profile"
+                    <img src="{{ asset('images/profiles.jpg') }}" alt="Profile"
                         class="w-full h-full object-cover">
                 </div>
                 <h2 class="text-xl font-semibold">Refyan Gigas</h2>
@@ -80,7 +80,7 @@
             </div>
             <div class="relative">
                 <div class="profile-circle bg-red-500 rounded-full overflow-hidden w-96 h-96 mx-auto relative z-10">
-                    <img src="{{ asset('images/profile.jpg') }}" alt="Profile Picture"
+                    <img src="{{ asset('public/images/profiles.jpg') }}" alt="Profile Picture"
                         class="w-full h-full object-cover">
                 </div>
                 <div class="dots-pattern absolute top-10 right-10 w-32 h-32 opacity-50"></div>
